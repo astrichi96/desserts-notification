@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "175072933016",
+    "firebase_url": "https://postresnoficaciones.firebaseio.com",
+    "project_id": "postresnoficaciones",
+    "storage_bucket": "postresnoficaciones.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175072933016:android:19c2d78a715c9a0a",
+        "android_client_info": {
+          "package_name": "com.company.haaru.postresnotificacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175072933016-ahmb6i3f4s2kjg9srmf95slkpr4en9bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6hVHXK1N4YcXa7A8nZ8KijSWe1551udg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

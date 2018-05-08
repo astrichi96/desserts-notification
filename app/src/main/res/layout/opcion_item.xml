@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.company.haaru.postresnotificacion.MainActivity">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln">
+        <ImageView
+            android:id="@+id/imgImagen"
+            android:layout_width="@dimen/avator_size"
+            android:layout_height="@dimen/avator_size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cup_03"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNombre"
+            android:text="@string/nombre"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDescripcion"
+            android:text="@string/nombre"
+            android:layout_below="@+id/textNombre"
+            />
+    </LinearLayout>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+    android:id="@+id/opciones_fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="16dp"
+    app:fabSize="normal"
+    app:fab_labelStyle="@style/menu_style"
+        >
+        <!--
+    app:fab_addButtonColorNormal="@color/primaryDarkColor"
+    app:fab_addButtonColorPressed="@color/accentColor"-->
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/comenta"
+        app:fab_icon="@drawable/ic_account_circle_white_24dp"
+        app:fab_addButtonColorNormal="@color/Button"
+        app:fab_addButtonColorPressed="@color/primaryColor"
+        app:fabSize="mini"
+        app:fab_title="Agrega tu opinion"
+
+        />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/action1_fab"
+        app:fab_icon="@drawable/ic_search"
+        app:fab_addButtonColorNormal="@color/Button"
+        app:fab_addButtonColorPressed="@color/primaryColor"
+        app:fabSize="mini"
+        app:fab_title="Buscar"
+        />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
